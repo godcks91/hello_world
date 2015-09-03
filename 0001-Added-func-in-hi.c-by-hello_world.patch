@@ -1,0 +1,31 @@
+From 328127c854a2d978cccfe83ec01eeb7dc79475f2 Mon Sep 17 00:00:00 2001
+From: "chintan.shah" <godcks91@gmail.com>
+Date: Thu, 3 Sep 2015 11:30:56 +0530
+Subject: [PATCH] Added func() in hi.c by hello_world
+
+---
+ hi.c |    6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/hi.c b/hi.c
+index fa1a006..f257287 100644
+--- a/hi.c
++++ b/hi.c
+@@ -1,8 +1,14 @@
+ #include <stdio.h>
+ 
++void func(void)
++{
++	printf("func\n");
++}
++
+ int main()
+ {
+ 	printf("hi\n");
++	func();
+ 	return 0;
+ }
+ 
+-- 
+1.7.9.5
+
