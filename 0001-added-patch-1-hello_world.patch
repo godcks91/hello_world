@@ -1,0 +1,24 @@
+From 333824b106b5a4dd27e88f7c80782c86cec0fc11 Mon Sep 17 00:00:00 2001
+From: "chintan.shah" <godcks91@gmail.com>
+Date: Thu, 3 Sep 2015 13:04:40 +0530
+Subject: [PATCH] added patch - 1: hello_world
+
+---
+ hi.c |    1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hi.c b/hi.c
+index f257287..329a134 100644
+--- a/hi.c
++++ b/hi.c
+@@ -3,6 +3,7 @@
+ void func(void)
+ {
+ 	printf("func\n");
++	printf("patch - 1: hello_world\n");
+ }
+ 
+ int main()
+-- 
+1.7.9.5
+
